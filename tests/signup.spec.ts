@@ -20,7 +20,7 @@ test('Form Demo', async ({ page }) => {
   await page.fill('#userNumber', '1234567890');
   await page.waitForTimeout(1000);
 
-  await page.fill('#currentAddress', 'Delaware');
+  await page.fill('#currentAddress', 'Code Street 123');
   await page.waitForTimeout(1000);
 
   await page.click('#submit');
